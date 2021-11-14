@@ -1,0 +1,25 @@
+<div class="form-signin">
+  <form (ngSubmit)="login()" [formGroup]="uyelikBilgisi">
+
+    <h1 class="h3 mb-3 fw-normal">Giriş Yap</h1>
+
+    <div class="form-floating">
+      <input type="email" formControlName="userName" class="form-control" id="userName" name="userName">
+      <label for="userName">Kullanıcı Adı</label>
+    </div>
+    <div class="text text-danger" *ngIf="(uyelikBilgisi.get('userName')?.dirty || uyelikBilgisi.get('userName')?.touched) && uyelikBilgisi.get('userName')?.errors">Kullanıcı adı gerekli</div>
+    <div class="form-floating">
+      <input type="password" formControlName="password" class="form-control" id="password" name="password">
+      <label for="password">Şifre</label>
+    </div>
+    <div class="text text-danger" *ngIf="(uyelikBilgisi.get('password')?.dirty || uyelikBilgisi.get('password')?.touched) && uyelikBilgisi.get('password')?.errors">Şifre adı gerekli</div>
+
+    <!-- <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Beni Hatırla
+      </label>
+    </div> -->
+    <button [disabled]="uyelikBilgisi.invalid" class="w-100 btn btn-lg btn-primary" type="submit">Giriş Yap</button>
+    <p class="mt-5 mb-3 text-muted">&copy; {{copyright}}</p>
+  </form>
+</div>
