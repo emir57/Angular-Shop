@@ -1,0 +1,102 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 5000,
+      "categoryId": 1,
+      "description": "Asus ZenBook",
+      "imageUrl": "https://cdn.cimri.io/image/1000x1000/asusddabrtamdryzenugbramgbssdwindowsinlaptopnotebook_299492111.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mouse",
+      "price": 500,
+      "categoryId": 2,
+      "description": "Logitech",
+      "imageUrl": "https://cdn.akakce.com/logitech/logitech-g203-lightsync-siyah-910-005796-kablolu-oyuncu-z.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Klavye",
+      "price": 500,
+      "categoryId": 2,
+      "description": "SteelSeries",
+      "imageUrl": "https://productimages.hepsiburada.net/s/35/1500/10471208747058.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Kulaklık",
+      "price": 500,
+      "categoryId": 2,
+      "description": "HyperX",
+      "imageUrl": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": 5,
+      "name": "Monitör",
+      "price": 500,
+      "categoryId": 2,
+      "description": "BenQ",
+      "imageUrl": "https://productimages.hepsiburada.net/s/19/375/9838509654066.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Ekran Kartı",
+      "price": 500,
+      "categoryId": 3,
+      "description": "RX 580",
+      "imageUrl": "https://cdn.akakce.com/asus/asus-rx-580-rog-strix-rx580-t8g-256-bit-gddr5-8-gb-z.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Samsung S20Fe",
+      "price": "5000",
+      "categoryId": "4",
+      "description": "8gb Ram ",
+      "imageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/samsung/thumb/galaxy-s20fe-gorseli-109442_large.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Reno 4 pro",
+      "price": "4500",
+      "categoryId": "4",
+      "description": "çok güzel",
+      "imageUrl": "https://productimages.hepsiburada.net/s/44/375/10807166697522.jpg"
+    },
+    {
+      "name": "Xiaomi Mi11 Lite",
+      "description": "güzel",
+      "price": "4300",
+      "categoryId": "4",
+      "imageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/xiaomi/thumb/127524_large.jpg",
+      "id": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Bilgisayar"
+    },
+    {
+      "id": 2,
+      "name": "Bilgisayar Ekipmanları"
+    },
+    {
+      "id": 3,
+      "name": "Ekran Kartı"
+    },
+    {
+      "id": 4,
+      "name": "Elektronik"
+    },
+    {
+      "id": 5,
+      "name": "İletişim"
+    },
+    {
+      "id": 6,
+      "name": "Müzik"
+    }
+  ]
+}
